@@ -1,0 +1,57 @@
+# Go binary
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Vendor directory
+/vendor/
+
+# Go build and test cache
+*.cache
+*.test
+*.out
+
+# Go module files
+go.sum
+go.mod
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.tmp
+*.log
+
+# Node modules (if using a Node.js tool)
+node_modules/
+
+# Coverage output
+coverage.out
+
+# Backup files
+*.bak
+*.old
+
+# Build output
+build/
